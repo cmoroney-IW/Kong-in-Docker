@@ -12,6 +12,6 @@
 - Under Name type `test`, and under URL type `https://httpbin.org/anything`, and then click Create
 - On the left-hand side click Routes, and then click New Route
 - Under Service click the box and then click test
-- Scroll down to Path(s), click + Add Path, type /test and then click Create
+- Scroll down to Path(s), click + Add Path, type `/test` and then click Create
 - Open a new tab in your browser and type `localhost:8000/test`
 - This should return JSON data from httpbin, indicating the the service and route are working correctly
